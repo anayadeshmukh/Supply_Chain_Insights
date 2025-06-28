@@ -40,7 +40,6 @@ TRANSFER	| 532
 PAYMENT	  | 488
 CASH	    | 259
 
-
 ---
 
 ### Business Problem 2: Identify the top 3 customers with the highest number of completed orders and total sales.
@@ -59,7 +58,7 @@ customer_id  | First_Name   | City         | State     | completed_orders | tota
 ### Business Problem 3: Get order counts by shipping mode and department, considering only departments with at least 40 completed or closed orders.
 ![image](https://github.com/user-attachments/assets/6cc32a54-e606-41dc-a769-36bf19dd5908)
 
-#### Output
+### Output
 Shipping_Mode  | department_name | order_count        
 ---------------|-----------------|--------------
 Standard Class | Footwear	       | 86
@@ -91,13 +90,12 @@ First Class	   | Golf	           | 57
 First Class	   | Fitness	       | 13
 First Class	   | Discs Shop	     | 18
 
-
 ---
 
 ### Business Problem 4: Classify orders by shipment compliance and find the shipping mode with the most delayed deliveries.
 ![image](https://github.com/user-attachments/assets/ee912433-ed91-4f83-b346-fc4831014813)
 
-#### Output
+### Output
 Shipping_Mode  | delayed_orders         
 ---------------|-----------------
 Standard Class | 466	       
@@ -107,8 +105,7 @@ Standard Class | 466
 ### Business Problem 5: Calculate order cancellation percentage by state and rank states by highest cancellation rate.
 ![image](https://github.com/user-attachments/assets/64ebb254-3770-4e2f-b461-31a138f5f23d)
 
-
-#### Output
+### Output
 Order_State       | cancellation_percentage       
 ------------------|-------------------------
 Manipur	          | 11.11
@@ -136,7 +133,6 @@ Assam	            | NULL
 Uttarakhand	      | NULL
 Chandigarh	      | NULL
 Tripura	          | NULL
-
 
 ---
 
